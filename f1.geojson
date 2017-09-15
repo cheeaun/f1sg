@@ -1,0 +1,692 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.853229,
+            1.286998,
+            0
+          ],
+          [
+            103.853465,
+            1.286746,
+            0
+          ],
+          [
+            103.853722,
+            1.286413,
+            0
+          ],
+          [
+            103.854162,
+            1.288859,
+            0
+          ],
+          [
+            103.854425,
+            1.290162,
+            0
+          ],
+          [
+            103.854586,
+            1.290779,
+            0
+          ],
+          [
+            103.854865,
+            1.291374,
+            0
+          ],
+          [
+            103.856485,
+            1.290098,
+            0
+          ],
+          [
+            103.857193,
+            1.289819,
+            0
+          ],
+          [
+            103.8573,
+            1.288982,
+            0
+          ],
+          [
+            103.859918,
+            1.288886,
+            0
+          ],
+          [
+            103.860004,
+            1.289604,
+            0
+          ],
+          [
+            103.860819,
+            1.289572,
+            0
+          ],
+          [
+            103.860862,
+            1.28895,
+            0
+          ],
+          [
+            103.863577,
+            1.288918,
+            0
+          ],
+          [
+            103.863856,
+            1.289476,
+            0
+          ],
+          [
+            103.863866,
+            1.290205,
+            0
+          ],
+          [
+            103.86378,
+            1.291846,
+            0
+          ],
+          [
+            103.863695,
+            1.29368,
+            0
+          ],
+          [
+            103.863673,
+            1.294421,
+            0
+          ],
+          [
+            103.863094,
+            1.294496,
+            0
+          ],
+          [
+            103.862536,
+            1.29501,
+            0
+          ],
+          [
+            103.862407,
+            1.294152,
+            0
+          ],
+          [
+            103.862423,
+            1.293777,
+            0
+          ],
+          [
+            103.862649,
+            1.293235,
+            0
+          ],
+          [
+            103.862852,
+            1.292678,
+            0
+          ],
+          [
+            103.863008,
+            1.292045,
+            0
+          ],
+          [
+            103.86304,
+            1.291626,
+            0
+          ],
+          [
+            103.86297,
+            1.291406,
+            0
+          ],
+          [
+            103.862702,
+            1.291192,
+            0
+          ],
+          [
+            103.860937,
+            1.291321,
+            0
+          ],
+          [
+            103.860047,
+            1.291353,
+            0
+          ],
+          [
+            103.859328,
+            1.291406,
+            0
+          ],
+          [
+            103.858888,
+            1.291503,
+            0
+          ],
+          [
+            103.858362,
+            1.291664,
+            0
+          ],
+          [
+            103.857493,
+            1.292114,
+            0
+          ],
+          [
+            103.855852,
+            1.293219,
+            0
+          ],
+          [
+            103.855358,
+            1.292425,
+            0
+          ],
+          [
+            103.854811,
+            1.291546,
+            0
+          ],
+          [
+            103.854007,
+            1.292361,
+            0
+          ],
+          [
+            103.853545,
+            1.292608,
+            0
+          ],
+          [
+            103.853191,
+            1.292404,
+            0
+          ],
+          [
+            103.852558,
+            1.29131,
+            0
+          ],
+          [
+            103.8517,
+            1.289647,
+            0
+          ],
+          [
+            103.851528,
+            1.289304,
+            0
+          ],
+          [
+            103.851593,
+            1.289025,
+            0
+          ],
+          [
+            103.852129,
+            1.288446,
+            0
+          ],
+          [
+            103.852322,
+            1.287824,
+            0
+          ],
+          [
+            103.853073,
+            1.287116,
+            0
+          ],
+          [
+            103.853234,
+            1.286993,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Singapore F1 Route",
+        "styleUrl": "#line-CC0000-5000-nodesc",
+        "styleHash": "-41145ec7",
+        "styleMapHash": {
+          "normal": "#line-CC0000-5000-nodesc-normal",
+          "highlight": "#line-CC0000-5000-nodesc-highlight"
+        },
+        "stroke": "#cc0000",
+        "stroke-opacity": 1,
+        "stroke-width": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.864124,
+          1.291085,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Singapore F1 - Seats at Pit Building",
+        "styleUrl": "#icon-503-DB4436",
+        "styleHash": "-2d02c067",
+        "styleMapHash": {
+          "normal": "#icon-503-DB4436-normal",
+          "highlight": "#icon-503-DB4436-highlight"
+        },
+        "description": "These are the prime seats for Singapore F1 at the Pit Building. <br><br> <br>Read about the other good seats at Singapore F1 (http://www.etour-singapore.com/singapore-f1.html), and about hotel and flight options."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.863845,
+          1.294388,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Singapore F1 - Seats at Turn 1",
+        "styleUrl": "#icon-503-DB4436",
+        "styleHash": "-2d02c067",
+        "styleMapHash": {
+          "normal": "#icon-503-DB4436-normal",
+          "highlight": "#icon-503-DB4436-highlight"
+        },
+        "description": "Read about the best seats, hotels and flights for Singapore F1 (http://www.etour-singapore.com/singapore-f1.html)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.863266,
+          1.294538,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Singapore F1 - Seats at Turn 2",
+        "styleUrl": "#icon-503-DB4436",
+        "styleHash": "-2d02c067",
+        "styleMapHash": {
+          "normal": "#icon-503-DB4436-normal",
+          "highlight": "#icon-503-DB4436-highlight"
+        },
+        "description": "Read about the best seats, hotels and flights for Singapore F1 (http://www.etour-singapore.com/singapore-f1.html)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.862793,
+          1.294925,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Singapore F1 - Seats at Turn 3",
+        "styleUrl": "#icon-503-DB4436",
+        "styleHash": "-2d02c067",
+        "styleMapHash": {
+          "normal": "#icon-503-DB4436-normal",
+          "highlight": "#icon-503-DB4436-highlight"
+        },
+        "description": "Read about the best seats, hotels and flights for Singapore F1 (http://www.etour-singapore.com/singapore-f1.html)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.858652,
+          1.28909,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Singapore F1 - Seats at Marina Bay",
+        "styleUrl": "#icon-503-DB4436",
+        "styleHash": "-2d02c067",
+        "styleMapHash": {
+          "normal": "#icon-503-DB4436-normal",
+          "highlight": "#icon-503-DB4436-highlight"
+        },
+        "description": "Read about the best seats, hotels and flights for Singapore F1 (http://www.etour-singapore.com/singapore-f1.html)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.857,
+          1.288897,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Singapore F1 - Seats at Esplanade Waterfront",
+        "styleUrl": "#icon-503-DB4436",
+        "styleHash": "-2d02c067",
+        "styleMapHash": {
+          "normal": "#icon-503-DB4436-normal",
+          "highlight": "#icon-503-DB4436-highlight"
+        },
+        "description": "More information about the best seats, hotels and flights for Singapore F1 (http://www.etour-singapore.com/singapore-f1.html)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.85494,
+          1.292136,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Singapore F1 - Seats at Stamford Road",
+        "styleUrl": "#icon-503-DB4436",
+        "styleHash": "-2d02c067",
+        "styleMapHash": {
+          "normal": "#icon-503-DB4436-normal",
+          "highlight": "#icon-503-DB4436-highlight"
+        },
+        "description": "More information about the best seats, hotels and flights for Singapore F1 (http://www.etour-singapore.com/singapore-f1.html)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.854275,
+          1.29072,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Singapore F1 - Seats at Connaught Drive",
+        "styleUrl": "#icon-503-DB4436",
+        "styleHash": "-2d02c067",
+        "styleMapHash": {
+          "normal": "#icon-503-DB4436-normal",
+          "highlight": "#icon-503-DB4436-highlight"
+        },
+        "description": "More information about the best seats, hotels and flights for Singapore F1 (http://www.etour-singapore.com/singapore-f1.html)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.852687,
+          1.290463,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Singapore F1 - Seats at the Padang",
+        "styleUrl": "#icon-503-DB4436",
+        "styleHash": "-2d02c067",
+        "styleMapHash": {
+          "normal": "#icon-503-DB4436-normal",
+          "highlight": "#icon-503-DB4436-highlight"
+        },
+        "description": "Book the best seats, hotels and flights for Singapore F1 (http://www.etour-singapore.com/singapore-f1.html)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.850219,
+          1.292393,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Grand Park City Hall Hotel",
+        "styleUrl": "#icon-503-DB4436-nodesc",
+        "styleHash": "4df7efe2",
+        "styleMapHash": {
+          "normal": "#icon-503-DB4436-nodesc-normal",
+          "highlight": "#icon-503-DB4436-nodesc-highlight"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.849812,
+          1.29175,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Excelsior Hotel",
+        "styleUrl": "#icon-503-DB4436-nodesc",
+        "styleHash": "4df7efe2",
+        "styleMapHash": {
+          "normal": "#icon-503-DB4436-nodesc-normal",
+          "highlight": "#icon-503-DB4436-nodesc-highlight"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.852987,
+          1.295547,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Carlton Hotel Singapore",
+        "styleUrl": "#icon-503-DB4436-nodesc",
+        "styleHash": "4df7efe2",
+        "styleMapHash": {
+          "normal": "#icon-503-DB4436-nodesc-normal",
+          "highlight": "#icon-503-DB4436-nodesc-highlight"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.858802,
+          1.293402,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Conrad Centennial Hotel Singapore",
+        "styleUrl": "#icon-503-DB4436",
+        "styleHash": "-2d02c067",
+        "styleMapHash": {
+          "normal": "#icon-503-DB4436-normal",
+          "highlight": "#icon-503-DB4436-highlight"
+        },
+        "description": "Conrad Singapore is highly rated business hotel in Singapore CBD. <br> <br>There are also other good luxury hotels at Singapore Marina Bay (http://www.etour-singapore.com/singapore-marina-bay-hotels.html).<br><br><br>More about Singapore F1 (http://www.etour-singapore.com/singapore-f1.html)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.859693,
+          1.290602,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Ritz Carlton Millenia Singapore Hotel",
+        "styleUrl": "#icon-503-DB4436",
+        "styleHash": "-2d02c067",
+        "styleMapHash": {
+          "normal": "#icon-503-DB4436-normal",
+          "highlight": "#icon-503-DB4436-highlight"
+        },
+        "description": "Read about Ritz Carlton Millenia Hotel and other luxury hotels at Singapore Marina Bay (http://www.etour-singapore.com/singapore-marina-bay-hotels.html).<br><br><br>More about Singapore F1 (http://www.etour-singapore.com/singapore-f1.html)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.858674,
+          1.290291,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Mandarin Oriental Singapore Hotel",
+        "styleUrl": "#icon-503-DB4436",
+        "styleHash": "-2d02c067",
+        "styleMapHash": {
+          "normal": "#icon-503-DB4436-normal",
+          "highlight": "#icon-503-DB4436-highlight"
+        },
+        "description": "Read about Mandarin Oriental Hotel Singapore and other luxury hotels at Singapore Marina Bay (http://www.etour-singapore.com/singapore-marina-bay-hotels.html).<br><br><br>More about Singapore F1 (http://www.etour-singapore.com/singapore-f1.html)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.853009,
+          1.293423,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Swissotel The Stamford Hotel",
+        "styleUrl": "#icon-503-DB4436",
+        "styleHash": "-2d02c067",
+        "styleMapHash": {
+          "normal": "#icon-503-DB4436-normal",
+          "highlight": "#icon-503-DB4436-highlight"
+        },
+        "description": "Read about Swissotel Stamford Hotel and other luxury hotels at Singapore Marina Bay (http://www.etour-singapore.com/singapore-marina-bay-hotels.html).<br><br><br>More about Singapore F1 (http://www.etour-singapore.com/singapore-f1.html)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.85715,
+          1.291567,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Marina Mandarin Hotel Singapore",
+        "styleUrl": "#icon-503-DB4436",
+        "styleHash": "-2d02c067",
+        "styleMapHash": {
+          "normal": "#icon-503-DB4436-normal",
+          "highlight": "#icon-503-DB4436-highlight"
+        },
+        "description": "Read about Marina Mandarin Hotel and other luxury hotels at Singapore Marina Bay (http://www.etour-singapore.com/singapore-marina-bay-hotels.html).<br><br><br>More about Singapore F1 (http://www.etour-singapore.com/singapore-f1.html)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.858545,
+          1.291878,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Pan Pacific Hotel Singapore (Marina)",
+        "styleUrl": "#icon-503-DB4436",
+        "styleHash": "-2d02c067",
+        "styleMapHash": {
+          "normal": "#icon-503-DB4436-normal",
+          "highlight": "#icon-503-DB4436-highlight"
+        },
+        "description": "Read about Pan Pacific Hotel Singapore and other good luxury hotels at Singapore Marina Bay (http://www.etour-singapore.com/singapore-marina-bay-hotels.html).<br><br><br>More about Singapore F1 (http://www.etour-singapore.com/singapore-f1.html)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.85244,
+          1.296973,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Victoria Hotel Singapore",
+        "styleUrl": "#icon-503-DB4436",
+        "styleHash": "-2d02c067",
+        "styleMapHash": {
+          "normal": "#icon-503-DB4436-normal",
+          "highlight": "#icon-503-DB4436-highlight"
+        },
+        "description": "Victoria Hotel (http://www.etour-singapore.com/victoria-hotel-singapore.html) is popular budget hotel in Singapore city centre.<br><br>More budget hotel options in Singapore city (http://www.etour-singapore.com/cheap-hotels-in-singapore-city-centre.html).<br><br>More about Singapore F1 (http://www.etour-singapore.com/singapore-f1.html)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.855648,
+          1.296705,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Hotel 81 Bugis",
+        "styleUrl": "#icon-503-DB4436",
+        "styleHash": "-2d02c067",
+        "styleMapHash": {
+          "normal": "#icon-503-DB4436-normal",
+          "highlight": "#icon-503-DB4436-highlight"
+        },
+        "description": "Read about Hotel 81 Bugis and other budget hotels in Singapore city (http://www.etour-singapore.com/cheap-hotels-in-singapore-city-centre.html).<br><br>More about Singapore F1 (http://www.etour-singapore.com/singapore-f1.html)."
+      }
+    }
+  ]
+}

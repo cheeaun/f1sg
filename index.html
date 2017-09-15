@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.40.0/mapbox-gl.js"></script>
+<link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.40.0/mapbox-gl.css">
+<title>F1 Singapore</title>
+<style>
+  body { margin:0; padding:0; background-color: #000; color: #fff; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; }
+  a { color: #fff; }
+  header { line-height: 1.5em; padding: 6px 12px; background-color: rgba(0,0,0,.5); position: absolute; top: 0; left: 0; max-width: 100%; z-index: 1000; box-sizing: border-box; }
+  h1, p { font-size: 1em; margin: 0; padding: 0; }
+  #map { position:absolute; top: 0; bottom: 0; width: 100%; }
+  .popover { max-width: 300px; color: #000; }
+  .popover a { color: #1258fd; }
+</style>
+<header>
+  <h1>F1 Singapore</h1>
+  <p>Made for fun by <a href="https://twitter.com/cheeaun" target="_blank">@cheeaun</a>. <a href="https://github.com/cheeaun/f1sg" target="_blank">Read more</a>.</p>
+</header>
+<div id="map"></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiY2hlZWF1biIsImEiOiJjaXhmb3o3bTEwMDAzMnRudTJuNjh1eXQ1In0.yO6WeKJwx6yIPoVx5aPavQ';
+var map = new mapboxgl.Map({
+  container: 'map',
+  style: 'mapbox://styles/mapbox/dark-v9',
+  center: [103.85784776455682, 1.2913765852287578],
+  zoom: 15,
+  minZoom: 15,
+  pitch: 60,
+});
+map.on('load', function(){
+  var layers = map.getStyle().layers.reverse();
+  var labelLayerIdx = layers.findIndex(function (layer) {
+    return layer.type !== 'symbol';
+  });
+  var labelLayerId = labelLayerIdx !== -1 ? layers[labelLayerIdx].id : undefined;
+
+  // Source
+  map.addSource('f1', {
+    type: 'geojson',
+    data: 'f1.geojson',
+  });
+
+  // Lines
+  map.addLayer({
+    id: 'lines',
+    type: 'line',
+    source: 'f1',
+    paint: {
+      'line-width': 8,
+      'line-color': "#FDB813",
+      'line-opacity': .75,
+      'line-blur': .5,
+    },
+    layout: {
+      'line-cap': 'round',
+      'line-join': 'round',
+    },
+  }, labelLayerId);
+
+  // Markers
+  map.addLayer({
+    id: 'places',
+    type: 'symbol',
+    source: 'f1',
+    paint: {
+      'text-color': '#FDB813',
+      'text-halo-color': '#000',
+      'text-halo-width': 2,
+    },
+    layout: {
+      'text-field': '{name}',
+      'text-anchor': 'bottom',
+      'text-size': 12,
+      'text-offset': [0, -1],
+      'text-optional': true,
+      'icon-image': 'marker-15',
+      'icon-allow-overlap': true,
+      'icon-ignore-placement': true,
+    },
+  });
+
+  // Marker Popups
+  map.on('mouseenter', 'places', function(e){
+    map.getCanvas().style.cursor = 'pointer';
+  });
+  map.on('mouseleave', 'places', function(){
+    map.getCanvas().style.cursor = '';
+  });
+  map.on('click', 'places', function(e){
+    var feature = e.features[0];
+    var desc = '<h1>' + feature.properties.name + '</h1>'
+      + '<p>' + feature.properties.description
+      .replace(/<br>\s+?<br>/g, '<br>')
+      .replace(/(https?:\/\/[^()]+)/ig, function(m){ return '<a href="' + m + '" target="_blank">' + m.slice(0, 20) + '&hellip;</a>' }) + '</p>';
+    var html = '<div class="popover">' + desc + '</div>';
+    var popup = new mapboxgl.Popup({
+      anchor: 'top',
+    });
+    popup.setLngLat(feature.geometry.coordinates)
+      .setHTML(html)
+      .addTo(map);
+  });
+
+  // 3D Buildings
+  map.addLayer({
+    id: '3d-buildings',
+    source: 'composite',
+    'source-layer': 'building',
+    filter: ['==', 'extrude', 'true'],
+    type: 'fill-extrusion',
+    minzoom: 15,
+    paint: {
+      'fill-extrusion-color': '#333',
+      'fill-extrusion-height': {
+        type: 'identity',
+        property: 'height',
+      },
+      'fill-extrusion-base': {
+        type: 'identity',
+        property: 'min_height',
+      },
+      'fill-extrusion-opacity': .9,
+    },
+  }, labelLayerId);
+
+  // Forever rotation
+  (function rotate(){
+    map.setBearing(map.getBearing()+.1);
+    requestAnimationFrame(rotate);
+  })();
+});
+</script>
